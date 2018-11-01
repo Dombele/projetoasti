@@ -42,6 +42,7 @@
                         </tr>
                     </table>
             </fieldset>
+            <p><a href="default.php">Voltar</a></p>
         </form>
     </div>
 </body>
