@@ -18,15 +18,15 @@
                     <table>
                         <tr>
                             <td>
-                                <label for="username">username: </label>
+                                <label for="ident">Identificação: </label>
                             </td>
                             <td>
-                                <input type="text" name="username" id="username">
+                                <input name="ident" id="ident" placeholder="Digite seu CPF ou CNPJ">
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <label for="password">password: </label>
+                                <label for="password">Senha: </label>
                             </td>
                             <td>
                                 <input type="password" name="password" id="password">   
