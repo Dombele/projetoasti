@@ -14,7 +14,7 @@
     <div>
         <form action="#" method="POST" id="#form_login">
             <fieldset>
-                <legend>Acesso Restrito</legend>
+                <legend>Identificação</legend>
                     <table>
                         <tr>
                             <td>
