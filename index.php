@@ -8,11 +8,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>login - ASTI</title>
 </head>
 <body>
     <div>
-        <form action="#" method="POST" id="#form_login">
+        <form action="#" method="POST" id="form-login" enctype="multipart/form-data">
             <fieldset>
                 <legend>Identificação</legend>
                     <table>
@@ -47,8 +48,7 @@
         <?php 
             $id = $_POST['ident'];
             $pw = $_POST['password'];
-            echo "<p><span>Identificação: </span>".$id."</p>";
-            echo "<p><span>Senha: </span>".$pw."</p>";
+
         ?>
     </div>
 </body>
