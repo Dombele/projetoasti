@@ -29,21 +29,27 @@
                                 <label for="password">Senha: </label>
                             </td>
                             <td>
-                                <input type="password" name="password" id="password">   
+                                <input type="password" name="password" id="password" placeholder="****************">   
                             </td>
                         </tr>
                         <tr>
                         <td>
-                            <input type="submit" value="Acessar" name="btn_aces">
+                            <input type="submit" value="Acessar" name="btn_aces"/>
                         </td>
                         <td>
-                            <input type="submit" value="Cadastrar" name="btn_cad">
+                            <input type="submit" value="Cadastrar" name="btn_cad"/>
                         </td>
                         </tr>
                     </table>
             </fieldset>
             <p><a href="default.php">Voltar</a></p>
         </form>
+        <?php 
+            $id = $_POST['ident'];
+            $pw = $_POST['password'];
+            echo "<p><span>Identificação: </span>".$id."</p>";
+            echo "<p><span>Senha: </span>".$pw."</p>";
+        ?>
     </div>
 </body>
 </html>
